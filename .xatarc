@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://hakim-leon-s-workspace-kvq5ju.eu-central-1.xata.sh/db/evently",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

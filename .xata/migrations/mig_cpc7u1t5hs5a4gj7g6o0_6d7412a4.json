@@ -1,0 +1,17 @@
+{
+  "id": "mig_cpc7u1t5hs5a4gj7g6o0",
+  "parentID": "mig_cpc7tr97u6ghpi3qt1ig",
+  "checksum": "1:6d7412a406df562e5f514656e56524deeded158f59c508aace132189d77ac67f",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "isFree",
+          "type": "bool",
+          "defaultValue": "false"
+        },
+        "table": "event"
+      }
+    }
+  ]
+}

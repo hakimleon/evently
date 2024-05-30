@@ -1,0 +1,16 @@
+{
+  "id": "mig_cpc7t417u6ghpi3qt1hg",
+  "parentID": "mig_cpc7sv55hs5a4gj7g6l0",
+  "checksum": "1:4851086fdc57dcb8ab6be3fcdc4db18189687841a9fdec832e2fb6fe6df4e44f",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "location",
+          "type": "string"
+        },
+        "table": "event"
+      }
+    }
+  ]
+}

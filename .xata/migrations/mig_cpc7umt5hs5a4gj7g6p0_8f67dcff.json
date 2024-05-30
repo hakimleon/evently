@@ -1,0 +1,19 @@
+{
+  "id": "mig_cpc7umt5hs5a4gj7g6p0",
+  "parentID": "mig_cpc7u797u6ghpi3qt1jg",
+  "checksum": "1:8f67dcff9c12786169202b3eca16ee5d9374c9d851f48f33807a52c658bbb3c5",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "organiser",
+          "type": "link",
+          "link": {
+            "table": "user"
+          }
+        },
+        "table": "event"
+      }
+    }
+  ]
+}

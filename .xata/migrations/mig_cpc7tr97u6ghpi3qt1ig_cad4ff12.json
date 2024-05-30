@@ -1,0 +1,16 @@
+{
+  "id": "mig_cpc7tr97u6ghpi3qt1ig",
+  "parentID": "mig_cpc7tlt5hs5a4gj7g6n0",
+  "checksum": "1:cad4ff12fc7c35b1da9dd90b7b8a41d88d90c0b761bd20d115f4d311021c1e15",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "price",
+          "type": "int"
+        },
+        "table": "event"
+      }
+    }
+  ]
+}
