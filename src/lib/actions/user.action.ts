@@ -12,11 +12,16 @@ export type CreateUserParams = {
   photo: string;
 };
 
-export async function createUser(user: Pick<UserRecord, "clerkId" | "email" | "photo" | "firstname" | "lastname" | "username">) {
+export async function createUser(
+  user: Pick<
+    UserRecord,
+    "clerkId" | "email" | "photo" | "firstname" | "lastname" | "username"
+  >
+) {
   try {
+    console.log("user", user);
     const newUser = await getXataClient().db.user.create(user);
-
-    return newUser
+    return newUser;
   } catch (error) {
     handleError(error);
   }
